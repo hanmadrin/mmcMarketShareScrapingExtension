@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client'
 import ContentApp from './ContentApp'
 
 // KEY CHANGE: Import with ?inline
-import tailwindStyles from '../style.css?inline'
+import tailwindStyles from '../tailwind.css?inline'
 
 const root = document.createElement('div')
-root.id = 'rimon-extension-root'
+root.id = 'hanmadrin-content-root'
 document.body.appendChild(root)
 
 const shadowRoot = root.attachShadow({ mode: 'open' })

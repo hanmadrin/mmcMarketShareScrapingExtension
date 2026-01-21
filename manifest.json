@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Rimon's React Extension",
+  "name": "MMC Market Share",
   "version": "1.0.0",
-  "action": { "default_popup": "index.html" },
   "content_scripts": [
     {
       "js": ["src/content/index.jsx"],
-      "matches": ["<all_urls>"]
+      "matches": ["https://www.matthewsmotorcompany.com/*"]
     }
-  ]
+  ],
+  "action": { "default_popup": "index.html" }
 }
